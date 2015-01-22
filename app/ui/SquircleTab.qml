@@ -1,25 +1,21 @@
 import QtQuick 2.0
+
 import Ubuntu.Components 1.1
+
 import Squircle 1.0
-import "../components"
+
 
 Tab {
-    title: i18n.tr("Hello..")
+    title: i18n.tr("Squircle")
 
     page: Page {
         Item {
-
-            width: 320
-            height: 480
+            anchors.fill: parent
 
             Squircle {
-                SequentialAnimation on t {
-                    NumberAnimation { to: 1; duration: 2500; easing.type: Easing.InQuad }
-                    NumberAnimation { to: 0; duration: 2500; easing.type: Easing.OutQuad }
-                    loops: Animation.Infinite
-                    running: true
-                }
+                anchors.fill: parent
             }
+
             Rectangle {
                 color: Qt.rgba(1, 1, 1, 0.7)
                 radius: 10

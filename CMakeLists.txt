@@ -26,7 +26,7 @@ option(INSTALL_TESTS "Install the tests on make install" on)
 
 set(APP_NAME          squircle)
 set(APP_ID            "squircle.sturmflut")
-set(SQUIRCLE_DIR "share/qml/squircle")
+set(SQUIRCLE_DIR      "share/qml/squircle")
 set(MAIN_QML          "squircle.qml")
 set(ICON              "graphics/squircle.png")
 
@@ -55,11 +55,6 @@ install(FILES "squircle.apparmor" DESTINATION ${DATA_DIR})
 add_subdirectory(app)
 add_subdirectory(backend)
 add_subdirectory(po)
-
-add_custom_target("autopilot" chmod +x ${CMAKE_SOURCE_DIR}/app/tests/autopilot/run
-                    COMMAND ${CMAKE_SOURCE_DIR}/app/tests/autopilot/run
-                    DEPENDS squirclebackend squirclebackend-qmldir
-                    WORKING_DIRECTORY ./app)
 
 add_custom_target("check" /usr/bin/qmltestrunner -input ${CMAKE_SOURCE_DIR}/app/tests/unit -import ${CMAKE_BINARY_DIR}/backend
                     DEPENDS squirclebackend squirclebackend-qmldir

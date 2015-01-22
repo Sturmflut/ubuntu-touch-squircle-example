@@ -6,6 +6,7 @@ set(
     Squirclebackend_SRCS
     modules/Squircle/backend.cpp
     modules/Squircle/squircle.cpp
+    modules/Squircle/squirclerenderer.cpp
 )
 
 add_library(Squirclebackend MODULE

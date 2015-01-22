@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 18:37+0100\n"
+"POT-Creation-Date: 2015-01-22 22:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,30 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../app/ui/HelloTab.qml:7
-msgid "Hello.."
+#: ../app/ui/SquircleTab.qml:9
+msgid "Squircle"
 msgstr ""
 
-#: ../app/ui/WorldTab.qml:6
-msgid "..World!"
-msgstr ""
-
-#: ../app/ui/WorldTab.qml:22
-msgid "WorldTab"
-msgstr ""
-
-#: ../app/ui/WorldTab.qml:31
-msgid "Swipe from bottom to up to reveal the toolbar."
-msgstr ""
-
-#: ../app/ui/WorldTabTools.qml:7
-msgid "Tap me!"
-msgstr ""
-
-#: ../app/ui/WorldTabTools.qml:10
-msgid "Toolbar tapped"
-msgstr ""
-
-#: /home/mr2515/owncloud/ubuntu-touch/build-squircle-Desktop-Default/po/squircle.desktop.in.h:1
+#: /home/sturmflut/ownCloud/ubuntu-touch/build-squircle-UbuntuSDK_for_armhf_GCC_ubuntu_sdk_14_10_utopic-Default/po/squircle.desktop.in.h:1
 msgid "squircle"
 msgstr ""
