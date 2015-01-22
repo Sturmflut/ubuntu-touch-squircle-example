@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-22 18:37+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../app/ui/HelloTab.qml:7
+msgid "Hello.."
+msgstr ""
+
+#: ../app/ui/WorldTab.qml:6
+msgid "..World!"
+msgstr ""
+
+#: ../app/ui/WorldTab.qml:22
+msgid "WorldTab"
+msgstr ""
+
+#: ../app/ui/WorldTab.qml:31
+msgid "Swipe from bottom to up to reveal the toolbar."
+msgstr ""
+
+#: ../app/ui/WorldTabTools.qml:7
+msgid "Tap me!"
+msgstr ""
+
+#: ../app/ui/WorldTabTools.qml:10
+msgid "Toolbar tapped"
+msgstr ""
+
+#: /home/mr2515/owncloud/ubuntu-touch/build-squircle-Desktop-Default/po/squircle.desktop.in.h:1
+msgid "squircle"
+msgstr ""

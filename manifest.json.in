@@ -1,0 +1,17 @@
+{
+    "name": "@APP_ID@",
+    "description": "description of squircle",
+    "architecture": "@CLICK_ARCH@",
+    "title": "@APP_NAME@",
+    "hooks": {
+        "squircle": {
+            "apparmor": "squircle.apparmor",
+            "desktop":  "squircle.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Sturm Flut <sturmflut@lieberbiber.de>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+
