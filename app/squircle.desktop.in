@@ -1,6 +1,6 @@
 [Desktop Entry]
-_Name=squircle
-Comment=My project description
+Name=Squircle example
+Comment=A simplified version of the QML "Squircle" example for Ubuntu Touch
 Exec=@EXEC@
 Icon=@ICON@
 Terminal=false
